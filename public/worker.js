@@ -5,6 +5,6 @@ self.addEventListener("push", e => {
   console.log("Push Recieved...");
   self.registration.showNotification(data.title, {
     body: "Push Notification using Node.js,Service Worker",
-    icon: "http://image.ibb.co/frYOFd/tmlogo.png"
+    icon: "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
   });
 });
